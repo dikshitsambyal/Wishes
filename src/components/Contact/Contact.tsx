@@ -7,34 +7,34 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 export function Contact(){
 
-  return(
-    <Container id="contact">
-      <header>
-        <h2>The WishBoard</h2>  
-        <br /><br />    
-      
+ return (
+  <Container id="contact">
+    <header>
+      <h2>The WishBoard</h2>  
+      <br /><br />    
+
       <p>
-  <strong>Dear Sister,</strong>
-</p>
+        <strong>Dear Friend,</strong>
+      </p>
 
-<ScrollAnimation animateIn="fadeInUp" delay={0.05 * 1000}>
-<p>
-  On your special day, I just want to tell you how much you mean to me. You’ve always been my biggest inspiration, my loudest cheerleader, and the person who makes even the ordinary moments unforgettable. Watching you grow into the amazing person you are today has been one of the greatest blessings of my life.
-</p>
-</ScrollAnimation>
-<ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-<p>
-  As you step into this new year, I’m so excited to see all the dreams you'll chase, the adventures you'll live, and the happiness you'll create. I’ll always be right here — cheering you on, laughing with you, and celebrating every beautiful moment that comes your way.
-</p>
-</ScrollAnimation>
-<ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-<p>
-  <strong>Happy Birthday, Sister!</strong> The best is yet to come. 🎉💖
-</p>
-</ScrollAnimation>
-
-</header>
-     
-    </Container>
-  )
+      <ScrollAnimation animateIn="fadeInUp" delay={0.05 * 1000}>
+        <p>
+          On your special day, I just want to let you know how much you mean to me. You’ve been one of the brightest lights in my life — someone who brings joy, strength, and comfort even in the smallest moments. Having you as a friend has been one of the greatest gifts life has given me.
+        </p>
+      </ScrollAnimation>
+      
+      <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+        <p>
+          As you step into this new chapter, I can’t wait to see all the amazing things you’ll do, the memories you’ll create, and the joy you’ll spread. I’ll always be here — supporting you, laughing with you, and celebrating every beautiful moment along the way.
+        </p>
+      </ScrollAnimation>
+      
+      <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
+        <p>
+          <strong>Happy Birthday, my favorite friend!</strong> The best is just beginning. 🎉💫
+        </p>
+      </ScrollAnimation>
+    </header>
+  </Container>
+);
 }

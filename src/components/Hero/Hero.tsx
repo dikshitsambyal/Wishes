@@ -35,10 +35,10 @@ export function Hero() {
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <h5>Here's to You, My Sister – My Forever Friend 💫</h5><br/>
+          <h5>Here's to You, My Miss Awsm – My Forever Friend 💫</h5><br/>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h3>🎉 Happy Birthday, Sister! 🎉</h3>
+          <h3>🎉 Happy Birthday! 🎉</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h4>Just for You, My Favorite Person in the World 💕</h4>
